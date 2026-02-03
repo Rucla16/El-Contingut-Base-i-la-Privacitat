@@ -1,3 +1,6 @@
+import Pelicula from pelicules;
+import Serie from serie;
+import Usuari from usuari;
 class Multimedia {
     #views = 0
     constructor(titol, durada_minuts) {
