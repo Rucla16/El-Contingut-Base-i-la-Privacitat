@@ -14,7 +14,7 @@ class Serie {
        let royalties = 0;
        if (royalties = 0) {
         royalties = this.#views * this.capitols * 0.05;
-        return royalties;
        }
+        return royalties;
     }
 }
