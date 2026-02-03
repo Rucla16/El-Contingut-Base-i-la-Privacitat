@@ -1,22 +1,20 @@
-import Multimedia from models
+import Multimedia from models;
 class Serie {
     constructor(capitols) {
         this.capitols = capitols;
     }
-    binge_watching(capitol) {
-        this.capitols = [];
-        capitol = 1;
-        for capitol in this.capitols;
-            capitol += capitol;
-            this.capitols.append(capitol);
+    play(binge) {
+        let binge = 0;
+        if (binge = 0) {
+            binge = this.#views += this.capitols;
+            console.log("Marató de", this.titol, "començada");
+        }   
     }
-    play() {
-        console.log("Marató de", this.titol, "començada");
-        this.#views += this.capitols;
-    }
-    calcularRoyalties() {
-       if (this.capitols > 0);
-            this.#views * capitol * 0.05;
-        
+    calcularRoyalties(royalties) {
+       let royalties = 0;
+       if (royalties = 0) {
+        royalties = this.#views * this.capitols * 0.05;
+        return royalties;
+       }
     }
 }
