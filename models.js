@@ -6,19 +6,21 @@ class Multimedia {
     
     }
     play() {
-        console.log("Reproduint...");
-        this.#views + 1;
+        pass
     }
     get_Views() {
         return this.#views;
     }
-    #calcularCostServer(durada_minuts, minut) {
-        durada_minuts = [];
-        minut = 0.01;
-        for minut in durada_minuts;
-            minut = minut + minut;
-            durada_minuts.append(minut);
+    #calcularCostServer(cost_server, minut) {
+        this.durada_minuts = [];
+        minut = 1;
+        for minut in this.durada_minuts;
+            minut += minut;
+            this.durada_minuts.append(minut);
+        cost_server = this.durada_minuts * 0.01;
+        
 
     }
    
 }
+
