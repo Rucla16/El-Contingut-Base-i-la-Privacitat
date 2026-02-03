@@ -6,19 +6,15 @@ class Multimedia {
     
     }
     play() {
-        pass
+        console.log("Reproduint...");
+        this.#views + 1;
     }
     get_Views() {
         return this.#views;
     }
     #calcularCostServer(cost_server, minut) {
-        this.durada_minuts = [];
-        minut = 1;
-        for minut in this.durada_minuts;
-            minut += minut;
-            this.durada_minuts.append(minut);
-        cost_server = this.durada_minuts * 0.01;
-        
+        let cost_server = this.durada_minuts * 0.01;
+        return cost_server;
 
     }
    
